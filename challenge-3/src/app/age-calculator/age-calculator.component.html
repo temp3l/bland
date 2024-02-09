@@ -1,0 +1,13 @@
+<div class="container">
+  <h2>Age Calculator</h2>
+  <form [formGroup]="ageForm">
+    <label for="dob">Date of Birth (dd/mm/yyyy): </label>
+    <input type="text" id="dob" formControlName="dob" placeholder="Enter your date of birth" />
+    <button type="button" (click)="calculateAge()">Calculate Age</button>
+  </form>
+
+  <div *ngIf="ageResult">
+    <h3>Age Result:</h3>
+    <p>{{ ageResult }}</p>
+  </div>
+</div>

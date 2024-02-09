@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getUserInput should exit the program - Invalid input for the number of elements. 1`] = `"Process.exit(1)"`;
+
+exports[`getUserInput should exit the program - Invalid input for the number of elements. 2`] = `"Process.exit(1)"`;
